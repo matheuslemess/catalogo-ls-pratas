@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CatalogoSection from "@/components/CatalogoSection";
 import ContatoSection from "@/components/ContatoSection";
-import Button from "@/components/Button";
+
 
 type Product = { id: number | string; name: string; price: string; image: string };
 

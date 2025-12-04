@@ -25,7 +25,7 @@ type Sale = {
   productName: string;
   quantity: number;
   totalPrice: number;
-  date: any; // Timestamp
+  date: Timestamp;
 };
 
 export default function AdminPage() {

@@ -4,7 +4,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
 import { useRouter } from 'next/navigation';
 import Button from '@/components/Button';
-import Image from 'next/image';
+
 
 export default function LoginPage() {
   const [email, setEmail] = useState('');

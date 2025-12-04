@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   description: "Descubra a coleção radiante",
 };
 
+import { AuthProvider } from "@/context/AuthContext";
+
+// ... imports
+
 export default function RootLayout({
   children,
 }: {
@@ -37,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${playfair.variable} ${lora.variable} ${urbanist.variable}`}
       >
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

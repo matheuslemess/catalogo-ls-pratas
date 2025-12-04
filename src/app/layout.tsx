@@ -22,8 +22,8 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  title: "Aurora - Produtos de Beleza",
-  description: "Descubra a coleção radiante",
+  title: "LS Pratas - Jóias em Prata 925",
+  description: "E Acessórios Femininos",
 };
 
 import { AuthProvider } from "@/context/AuthContext";
